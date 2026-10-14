@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homepage</title>
+</head>
+<style>
+    body{
+        background-color: blue;
+
+    }
+    .bar{
+        display: flex;
+        background-color: black;
+        color: red;
+        gap: 4%;
+        padding: 5px;
+        height: 150px;
+    }
+    .bar ul{
+        display: flex;
+        position: center;
+        padding-left: 5%;
+        padding-top: 5%;
+        color: aqua;
+
+    } 
+    ul li a{
+        text-decoration-line: none;
+        color: white;
+        font-size: 10px;
+    }
+    ul li{
+        list-style-type: none;
+    }
+    .main{
+        height: 60vh;
+    }
+    h2{
+        text-align: center;
+        color: rgb(54, 163, 59);
+        margin-bottom: 10px;
+    }
+    input-group{
+        margin-bottom: 20px;
+    }
+    input-group label{
+        display: block;
+        font-size: 14px;
+        margin-bottom: 5px;
+        color: #555555;
+    }
+    .input-group input{
+        width: 70%;
+        padding: 10px;
+        font-size: 14px;
+        border: 1px solid #cccccc;
+        border-radius: 4px;
+        outline: none;
+    }
+    .input-group:focus{
+        border-color: #007bff;
+        box-shadow: 0 0 5px rgb(0, 123, 0.5);
+    }
+    .login-btn{
+     width: 80%; 
+     padding: 8px;
+     font-size: 16px;
+     color: #ffffff;
+     background-color: rgb(54, 163, 59);
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+     background-color: 0.3 ease;
+     height: 35px;
+     }
+      .login-btn :hover{
+        background-color: rgb(133, 243, 22);
+        color: blue;
+    }
+    #label{
+        color: black;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 17px;
+    }
+   .login contener{
+    background-color: #fdfffd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgb(150, 148, 148);
+    width: 100%;
+    max-width: 100px;
+    margin-left: 30px;
+    margin-top: 80px;
+   }
+    .foot{
+        background-color: rgb(99, 100, 99);
+        padding: 10px;
+        text-align: center;
+        color: red;
+    }
+    h1{
+        padding-left: 10%;
+        width: 100px;
+        height: 30px;
+    }
+</style>
+<body>
+    <div class="bar">
+        <h1>ethiocoder acadamy</h1>
+        <ul>
+            <li><a href="index.html" style="padding-left: 15px; padding-right: 15px;">Home</a></li>
+              <li><a href="" style="padding-left: 15px; padding-right: 15px;">Aboutus</a></li>
+                <li><a href="" style="padding-left: 15px; padding-right: 15px;">Contact</a></li>
+                  <li><a href="Sign up.html" style="background-color:aquamarine;padding-left: 15px;padding-right: 15px;padding-top: 15px;padding: 7px;">Sign up</a></li>
+                    <li><a href="Login.html" style="background-color: aquamarine;padding: 7px;padding-left: 15px;padding-right: 15px;padding-top: 15px;">Login</a></li>
+        </ul>
+        </div>
+        <div class="main">
+       <div class="login contener">
+        <h2 style="font-family: 'Times New Roman', Times, serif;color: rgb(54, 163, 59);">login form</h2>
+        <form action="" method="post">
+            <div class="input-group">
+            <label for="username" id="label">username</label>
+            <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+            <label for="password" id="label">password</label>
+            <input type="password" id="password" name="password" required>
+
+            </div>
+            <div class="btn">
+                <button type="submit" class="login-btn" name="login">login</button>
+
+            </div>
+
+        </form>
+
+       </div>
+       </div>
+    <div class="foot">
+   <h1>ethiocoder acadamy</h1>
+    </div>
+    
+</body>
+</html>
